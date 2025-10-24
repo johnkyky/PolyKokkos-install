@@ -24,9 +24,9 @@ EOF
 echo "Starting repository cloning..."
 
 directory=$(pwd)
-kokkos_branch="loopfusion"
+kokkos_branch="develop"
 kokkos_name=""
-llvm_branch="auto_detect"
+llvm_branch="main"
 llvm_name=""
 
 while [[ $# -gt 0 ]]; do
